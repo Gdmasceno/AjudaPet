@@ -1,0 +1,179 @@
+/* Estilizando a font de toda a página */
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+
+/* Formatando a página */
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: #EEEEEE;
+}
+
+
+/* Estilizando o header da página*/
+header{
+
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+}
+
+header .logo{
+    font-size: 25px;
+
+    /* background-color: green; */
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo span{
+    color: #A98453;
+}
+
+header .menu{
+    width: 900px;
+    /* height: 100%; */
+
+    /* background-color: yellow; */
+}
+
+.menu ul{
+    list-style: none;
+
+    display: flex;
+    justify-content: end;
+}
+
+.menu ul li{
+    color: #7E7E7E;
+
+    margin: 0px 30px;
+}
+
+.menu ul .ativo{
+    color: black;
+    border-left: 3px solid #A98453;
+
+    padding: 0px 5px;
+}
+
+header .login{
+    /* width: 200px; */
+    /* height: 100%; */
+
+    /* background-color: brown; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .fake_btn{
+    width: 100px;
+    height: 30px;
+
+    background-color: white;
+    border: 3px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .fake_btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* Estlizando o banner */
+.banner{
+
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+
+    padding: 80px 130px 80px 130px;
+}
+
+.banner .up{
+    width: 800px;
+
+    /* background-color: rebeccapurple; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.up .titulo{
+    font-size: 45px;
+
+    /* background-color: blue; */
+    font-weight: bold;
+    color: white;
+}
+
+.titulo span{
+    color: #A98453;
+}
+
+.up .subtitulo{
+    font-size: 20px;
+    color: white;
+}
+
+.up .fake_btn{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner .down{
+    width: 100%;
+
+    /* background-color: rebeccapurple; */
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.down .titulo{
+    font-size: 30px;
+}
+
+.down .subtitulo{
+    font-size: 20px;
+}
+
+.down .search{
+    height: 130px;
+    width: 100%;
+
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px rgba(126, 126, 126, 0.75);
+}
