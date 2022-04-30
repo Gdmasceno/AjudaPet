@@ -300,3 +300,46 @@ select:focus{
 
     color: white;
 }
+
+/* Estilizando o footer */
+
+footer{
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo{
+    font-size: 25px;
+
+    /* background-color: green; */
+    font-weight: bold;
+}
+
+.logo span{
+    color: #A98453;
+}
+
+footer .footer_menu{
+    margin-right:40px;
+}
+
+footer .footer_menu ul{
+    font-size: 15px;
+
+    list-style: none;
+    color: black;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .direitos{
+    font-size: 15px;
+
+    color: #9E9E9E;
+}
