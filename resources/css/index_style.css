@@ -176,4 +176,59 @@ header .login{
     margin-top: 20px;
     border-radius: 20px;
     box-shadow: 0px 3px 6px rgba(126, 126, 126, 0.75);
+
+    display: flex;
+}
+
+.search .bloco{
+    width: 20%;
+    height: 100%;
+
+    /* border-right: 0.5px solid rgb(196, 196, 196);
+    border-radius: 20px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco .desc_bloco{
+    font-size: 20px;
+
+    color: black;
+}
+
+.bloco select{
+    height: 40px;
+    font-size: 15px;
+
+    color: rgb(70, 70, 70);
+    border: none;
+    text-align: center;
+}
+
+select:focus{
+    outline: none;
+}
+
+.bloco input{
+    height: 40px;
+    font-size: 15px;
+
+    color: rgb(70, 70, 70);
+    border: none;
+    /* box-shadow: 0px 3px 6px rgba(126, 126, 126, 0.75); */
+    text-align: center;
+}
+
+.bloco input:focus{
+    outline: none;
+}
+
+.busca .desc_bloco:hover{
+    font-size: 22px;
+    transition: 1s;
+    color: black;
+    cursor: pointer;
 }
