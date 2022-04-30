@@ -1,5 +1,6 @@
 a{
     text-decoration: none;
+    color:black;
 }
 
 /* Estilizando a font de toda a página */
@@ -18,13 +19,20 @@ body{
 
 
 /* Estilizando o header da página*/
+.teste{
+    width: 100%;
+    height: 70px;
+}
 header{
+    width: 100vw;
 
     background-color: white;
 
     display: flex;
     justify-content: space-between;
     padding: 10px 70px;
+
+    position: fixed;
 }
 
 header .logo{
@@ -76,7 +84,7 @@ header .login{
     /* background-color: brown; */
 
     display: flex;
-    justify-content: center;
+    margin-right: 120px;
     align-items: center;
 }
 
@@ -282,6 +290,8 @@ select:focus{
 
 .card .contato{
     width: 240px;
+
+    cursor: pointer;
     background-color: #1CAB51;
     border-radius: 27px;
 
