@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 /* Estilizando a font de toda a página */
 *{
     font-family: 'Poppins',sans-serif;
@@ -231,4 +235,68 @@ select:focus{
     transition: 1s;
     color: black;
     cursor: pointer;
+}
+
+
+/* Estelizando os cards */
+.cards{
+    /* background-color: blue; */
+
+    padding: 0px 130px 0px 130px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cards .card{
+    width: 300px;
+    min-height: 410px;
+
+    background-color: white;
+    box-shadow: 0px 3px 6px rgba(126, 126, 126, 0.75);
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 50px;
+}
+
+.card img{
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card .titulo{
+    font-size: 20px;
+    font-weight: bold;
+
+    margin: 20px 20px 0px 20px;
+}
+
+.card .subtitulo{
+    font-size: 15px;
+
+    margin: 0px 20px 0px 20px;
+}
+
+.card .contato{
+    width: 240px;
+    background-color: #1CAB51;
+    border-radius: 27px;
+
+    margin: 20px 20px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contato img{
+    width: 50px;
+}
+
+.contato .numero{
+    font-size: 20px;
+
+    color: white;
 }
